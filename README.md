@@ -16,7 +16,7 @@ Proyecto de testing manual funcional realizado sobre la aplicación Trello Deskt
 - Confluence (estilo de reportes)
 
 ## Artefactos completos (todo el proyecto)
-- [Análisis funcional](docs/Analisis-funcional.pdf)
+- [Análisis funcional](docs/Análisis-funcional.pdf)
 - [Casos de prueba](docs/casos-de-prueba.csv)
 - [Reportes de defectos / Bugs](docs/Bugs-identificados.csv)
 - [Evidencia de herramientas](Evidencias/Evidencia-de-herramientas-utilizadas.pdf)
