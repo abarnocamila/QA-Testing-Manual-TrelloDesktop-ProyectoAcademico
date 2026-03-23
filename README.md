@@ -16,11 +16,11 @@ Proyecto de testing manual funcional realizado sobre la aplicación Trello Deskt
 - Confluence (estilo de reportes)
 
 ## Artefactos completos (todo el proyecto)
-- [Análisis funcional](docs/analisis-funcional.md)  
-- [Casos de prueba](docs/casos-de-prueba.md)  
-- [Reportes de defectos](docs/defectos.md) 
-- [Evidencias y capturas](docs/evidencias.md)
-
+- [Análisis funcional](/abarnocamila/QA-Testing-Manual-TrelloDesktop-ProyectoAcademico/blob/main/docs/Analisis-funcional.pdf)
+- [Casos de prueba](/abarnocamila/QA-Testing-Manual-TrelloDesktop-ProyectoAcademico/blob/main/docs/casos-de-prueba.csv)
+- [Reportes de defectos / Bugs](/abarnocamila/QA-Testing-Manual-TrelloDesktop-ProyectoAcademico/blob/main/docs/Bugs-identificados.csv)
+- [Evidencia de herramientas](/abarnocamila/QA-Testing-Manual-TrelloDesktop-ProyectoAcademico/tree/main/Evidencias)
+  
 ## Resultados y aprendizajes
 Se ejecutaron todos los casos definidos y se detectó una incidencia relacionada con la validación del nombre del tablero (documentada en Jira).  
 Reforcé el diseño de casos con escenarios positivo/negativo, documentación clara y ciclo completo de testing.
