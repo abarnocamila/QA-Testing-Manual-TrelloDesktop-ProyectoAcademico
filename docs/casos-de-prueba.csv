@@ -1,80 +1,80 @@
-ID,Feature,Descripción,Prioridad,Tipo,Precondiciones,Pasos,Datos de prueba,Resultado esperado,Postcondiciones
+ID,Feature,Descripción,Prioridad,Tipo,Precondiciones,Pasos,Datos de prueba,Resultado esperado,Postcondiciones,Resultado de ejecución
 CP-1,Crear tablero,Acceso a creación de tablero desde desde menú “Crear”,Alta,Funcional-Positivo,Usuario autenticado.,"1. Seleccionar botón “Crear” ubicado en la esquina superior derecha.
 2. Seleccionar opción “Crear tablero”
-",,Se abre el modal de creación de un nuevo tablero.,
+",,Se abre el modal de creación de un nuevo tablero.,,Pass
 CP-2,Crear tablero,Crear tablero con un solo espacio de trabajo,media,Funcional-Positivo,"Usuario autenticado con un solo espacio de trabajo. Modal de creación de tablero abierto.
 ","1. Ingresar un nombre válido en ""Título del tablero""
 2. Seleccionar ""Crear""
-      ",Título de tablero: “Tareas de Administración”,Se redirige al usuario al tablero recién creado.,El tablero se crea con visibilidad por defecto en “Espacio de trabajo”
+      ",Título de tablero: “Tareas de Administración”,Se redirige al usuario al tablero recién creado.,El tablero se crea con visibilidad por defecto en “Espacio de trabajo”,Pass
 CP-3,Crear tablero,Crear tablero asociado a un espacio de trabajo específico,media,Funcional-Positivo,Usuario autenticado con dos o más espacios de trabajo. Modal de creación de tablero abierto.,"1.  Ingresar un nombre válido en ""Título del tablero"" 
 2.  Selecciona un espacio de trabajo
 3.  Seleccionar ""Crear”","Título de tablero: “Tareas de Planificación” 
 Espacio de trabajo: Cualquier espacio de trabajo existente
-",Se redirige al usuario al tablero recién creado.,El tablero se crea con visibilidad por defecto en “Espacio de trabajo”
+",Se redirige al usuario al tablero recién creado.,El tablero se crea con visibilidad por defecto en “Espacio de trabajo”,Pass
 CP-4,Crear tablero,Crear tablero personal,media,Funcional-Positivo,"Usuario autenticado y sin pertenecer a nungún espacio de trabajo.
 Modal de creación de tablero abierto.
 ","
 1. Ingresar un nombre válido en ""Título del tablero""
 4.  En el campo ""Visibilidad"" seleccionar ""Privado""
-5.  Seleccionar ""Crear”",Título del tablero: “Tareas de Contabilidad”,Se redirige al usuario al tablero recién creado.,El tablero personal se crea con visibilidad por defecto en “Privado”
+5.  Seleccionar ""Crear”",Título del tablero: “Tareas de Contabilidad”,Se redirige al usuario al tablero recién creado.,El tablero personal se crea con visibilidad por defecto en “Privado”,Pass
 CP-5,Crear tablero,Intentar crear tablero sin ingresar un nombre,Alta,Funcional-Negativo,"Usuario autenticado.
 Modal de creación de tablero abierto.","1. Dejar el campo nombre vacío
 2. Seleccionar un espacio de trabajo si corresponde
-3. Intentar seleccionar ""Crear”",,El botón de “Crear” se mantiene deshabilitado y se indica al usuario que el campo es obligatorio.,
+3. Intentar seleccionar ""Crear”",,El botón de “Crear” se mantiene deshabilitado y se indica al usuario que el campo es obligatorio.,,Pass
 CP-6,Crear tablero,Intentar crear un tablero con nombre compuesto solo por espacios,Alta,Funcional-Negativo,"Usuario autenticado.
 Modal de creación de tablero abierto.","1. Ingresar en “nombre” solo espacios
 2. Seleccionar un espacio de trabajo si corresponde
-3. Intentar seleccionar ""Crear”",,El botón de “Crear” se mantiene deshabilitado y se indica al usuario que el campo es obligatorio.,
+3. Intentar seleccionar ""Crear”",,El botón de “Crear” se mantiene deshabilitado y se indica al usuario que el campo es obligatorio.,,Pass
 CP-7,Crear tablero,Acceso alternativo a creación de tablero desde botón de inicio,media,Funcional-Positivo,Usuario autenticado,"1. Seleccionar botón “Inicio” ubicado en el menú lateral izquierdo.
-2. Seleccionar enlace “Crear un nuevo tablero”",,Se abre el modal de creación de un nuevo tablero.,
+2. Seleccionar enlace “Crear un nuevo tablero”",,Se abre el modal de creación de un nuevo tablero.,,Pass
 CP-8,Crear tablero,Crear tablero seleccionando un fondo personalizado,Baja,Funcional-Positivo,"Usuario autenticado.
 Modal de creación de tablero abierto.
 ","1. Ingresar un nombre válido en ""Título del tablero""
 2. Seleccionar un espacio de trabajo si corresponde
 3. En el apartado de imágenes seleccionar una
-4. Seleccionar ""Crear”",Título del tablero: “Tareas de Marketing”,Se redirige al usuario al tablero recién creado con el fondo seleccionado.,
+4. Seleccionar ""Crear”",Título del tablero: “Tareas de Marketing”,Se redirige al usuario al tablero recién creado con el fondo seleccionado.,,Pass
 CP-9,Crear tablero,Intentar crear un tablero donde el nombre supera la longitud máxima de caracteres,media,Funcional-Negativo,"Usuario autenticado.
 Modal de creación de tablero abierto.","1. Ingresar en “nombre” una cantidad irracional de caracteres
 2. Seleccionar un espacio de trabajo si corresponde
-3. Seleccionar ""Crear”",Título del tablero: “Tablero para planificación estratégica del proyecto anual de marketing digital 2025”,No se permite crear el tablero y se indica al usuario que el nombre excede el límite permitido.,
+3. Seleccionar ""Crear”",Título del tablero: “Tablero para planificación estratégica del proyecto anual de marketing digital 2025”,No se permite crear el tablero y se indica al usuario que el nombre excede el límite permitido.,,Pass
 CP-10,Crear tablero,Cerrar modal de creación sin completar la creación de un tablero,media,Funcional-Negativo,Usuario autenticado y modal de creación abierto,"1. Ingresar en “nombre” un valor válido
-2. Cerrar modal sin guardar cambios",Título del tablero: “Gestión de proyectos 2025”,No se crea ningún tablero y se devuelve a la pantalla anterior.,
+2. Cerrar modal sin guardar cambios",Título del tablero: “Gestión de proyectos 2025”,No se crea ningún tablero y se devuelve a la pantalla anterior.,,Pass
 CP-11,Crear tablero,Error de red al crear tablero,Alta,Caso de error,"Usuario autenticado.
 Modal de creación de tablero abierto.","1. Ingresar datos válidos en los campos
-2. Seleccionar “Crear”",Título del tablero: “Gestión de actividades”,Se muestra un mensaje indicando que no fue posible guardar el tablero. ,El tablero no se crea.
+2. Seleccionar “Crear”",Título del tablero: “Gestión de actividades”,Se muestra un mensaje indicando que no fue posible guardar el tablero. ,El tablero no se crea.,Pass
 CP-12,Crear tablero,Crear tablero a partir de una plantilla predefinida,media,Funcional-Positivo,"Usuario autenticado.
 Modal de creación de tablero abierto.","1. Seleccionar la opción “Empezar con una plantilla”
 2. Seleccionar una plantilla predefinida de la lista disponible
-3. Seleccionar ""Crear”",,Se redirige al usuario al tablero recién creado.,
+3. Seleccionar ""Crear”",,Se redirige al usuario al tablero recién creado.,,Pass
 CP-13,Crear tablero,Crear un tablero con nombre duplicado en un mismo espacio de trabajo,media,Funcional-Positivo,"Usuario autenticado y con al menos un espacio de trabajo.
 Modal de creación de tablero abierto.","1. Crear un tablero con nombre válido dentro de un espacio de trabajo 
 2. Crear un segundo tablero en el mismo espacio de trabajo utilizando el mismo nombre
-3. Confirmar la creación del tablero con el botón “Crear”",Título del tablero: “Presentaciones diciembre 2025”,El sistema permite la creación del tablero cuando exista otro en el mismo nombre en el mismo espacio de trabajo.,
+3. Confirmar la creación del tablero con el botón “Crear”",Título del tablero: “Presentaciones diciembre 2025”,El sistema permite la creación del tablero cuando exista otro en el mismo nombre en el mismo espacio de trabajo.,,Pass
 CP-14,Crear tablero,Intentar crear un tablero con Nombre compuesto únicamente por caracteres invisibles,media,Funcional-Negativo,Usuario autenticado y con modal de creación de tablero abierto.,"1. Ingresar en campo Nombre caracteres invisibles
-2. Intentar seleccionar ""Crear""",,El sistema no habilita el botón de creación del tablero y muestra un mensaje de validación indicando que el nombre es obligatorio.,
-CP-15,Agregar nota,Crear una nota con texto válido,Alta,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente,"1. Acceder a un tablero existente
-2. Localizar el campo para agregar una nota
-3. Ingresar texto en el campo de la nota
-4. Confirmar la acción de agregar",,La nota se crea correctamente y se muestra dentro del tablero.,
-CP-16,Agregar nota,Crear múltiples notas en un tablero,Alta,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente,"1. Acceder a un tablero existente.
-2. Crear una primera nota con texto válido.
-3. Crear una segunda nota con texto diferente.
-4. Crear una tercera nota.",,Todas las notas se crean correctamente y se muestran dentro del tablero.,El tablero contiene múltiples notas creadas.
-CP-17,Agregar nota,Intentar crear una nota vacía,media,Funcional-Negativo,El usuario se encuentra dentro de un tablero existente.," 1. Acceder al campo de creación de nota.
+2. Intentar seleccionar ""Crear""",,El sistema no habilita el botón de creación del tablero y muestra un mensaje de validación indicando que el nombre es obligatorio.,,Fail
+CP-15,Agregar tarjeta,Crear una tarjeta con texto válido,Alta,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente,"1. Acceder a un tablero existente
+2. Localizar el campo para agregar una tarjeta
+3. Ingresar texto en el campo de la tarjeta
+4. Confirmar la acción de agregar",,La tarjeta se crea correctamente y se muestra dentro del tablero.,,Pass
+CP-16,Agregar tarjeta,Crear múltiples tarjetas en un tablero,Alta,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente,"1. Acceder a un tablero existente.
+2. Crear una primera tarjeta con texto válido.
+3. Crear una segunda tarjeta con texto diferente.
+4. Crear una tercera tarjeta.",,Todas las tarjeta se crean correctamente y se muestran dentro del tablero.,El tablero contiene las tarjetas creadas.,Pass
+CP-17,Agregar tarjeta,Intentar crear una tarjeta vacía,media,Funcional-Negativo,El usuario se encuentra dentro de un tablero existente.," 1. Acceder al campo de creación de tarjeta.
 2. Dejar el campo vacío.
-3. Confirmar la acción de agregar nota.",,El sistema muestra un mensaje de validación indicando que debe ingresarse contenido y la nota no se crea.,
-CP-18,Agregar nota,Verificar visualización de una nota creada,media,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente.," 1. Crear una nota con texto válido.
- 2. Observar el tablero.",,La nota aparece visible dentro del tablero inmediatamente después de ser creada.,
-CP-19,Agregar nota,Verificar persistencia de una nota luego de recargar la página,Alta,Funcional-Positivo,Existe una nota previamente creada dentro del tablero.,"1. Crear una nota con texto válido.
-2. Recargar la página del navegador.",,La nota previamente creada permanece visible dentro del tablero luego de recargar la página.,
-CP-20,Agregar nota,Crear una nota con texto largo,media,Funcional-Negativo,El usuario se encuentra dentro de un tablero existente.," 1. Acceder al campo de creación de nota.
+3. Confirmar la acción de agregar tarjeta.",,El sistema no agrega la tarjeta al tablero.,,Pass
+CP-18,Agregar tarjeta,Verificar visualización de una tarjeta creada,media,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente.," 1. Crear una tarjeta con texto válido.
+ 2. Observar el tablero.",,La tarjeta aparece visible dentro del tablero después de ser creada.,,Pass
+CP-19,Agregar tarjeta,Verificar persistencia de una tarjeta luego de recargar la página,Alta,Funcional-Positivo,Existe una tarjeta previamente creada dentro del tablero.,"1. Crear una nota con texto válido. 2.Confirmar la creación de la tarjeta.
+3. Cerrar el tablero actual y volverlo a abrir.",,La tarjeta previamente creada permanece visible dentro del tablero.,,Pass
+CP-20,Agregar tarjeta,Verificar que se permita crear una tarjeta con texto largo,media,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente.," 1. Acceder al campo de creación de tarjetas.
 2. Ingresar un texto largo.
-3. Confirmar la creación de la nota.",Texto de aproximadamente 300 caracteres o más.,La nota se crea correctamente y el contenido completo se muestra dentro del tablero.,
-CP-21,Agregar nota,Crear una nota con caracteres especiales,Baja,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente.,"1. Acceder al campo de creación de nota.
+3. Confirmar la creación de la tarjeta.",Texto de aproximadamente 300 caracteres o más.,La tarjeta se crea y el contenido completo se muestra dentro del tablero.,,Pass
+CP-21,Agregar tarjeta,Verificar que sea posibe la creación de una tarjeta con caracteres especiales,Baja,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente.,"1. Acceder al campo de creación de tarjetas.
 2. Ingresar texto con caracteres especiales.
 3. Confirmar la creación.","Texto con caracteres especiales como: !#$%.
-",La nota se crea correctamente y los caracteres especiales se muestran sin errores.,
-CP-22,Agregar nota,Verificar la validación al crear una nota utilizando únicamente caracteres invisibles,media,Funcional-Negativo,El usuario se encuentra dentro de un tablero existente.,"1. Acceder a un tablero existente.
-2. Localizar el campo para agregar una nueva nota.
+",La tarjeta se crea correctamente y los caracteres especiales se muestran sin errores.,,Pass
+CP-22,Agregar tarjeta,Verificar la validación al crear una tarjeta utilizando únicamente caracteres invisibles,media,Funcional-Negativo,El usuario se encuentra dentro de un tablero existente.,"1. Acceder a un tablero existente.
+2. Seleccionar “Añade una tarjeta”.
 3. Ingresar únicamente caracteres invisibles en el campo de texto.
-4. Confirmar la creación de la nota.",Texto con caracteres invisibles,"Al seleccionar “Añadir tarjeta” la tarjera no se agrega al tablero, exactamente igual a cuando no se ingresa ningún valor.",La nota no se crea en el tablero.
+4. Confirmar la creación de la tarjeta .",Texto conformado únicamente por caracteres invisibles,"Al seleccionar “Añadir tarjeta” la tarjera no se agrega al tablero, exactamente igual a cuando no se ingresa ningún valor.",La tarjeta no se crea en el tablero.,Fail
