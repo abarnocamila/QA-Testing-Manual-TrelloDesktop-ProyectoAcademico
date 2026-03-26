@@ -8,7 +8,7 @@ Las funcionalidades que elegí testear fueron la creación de tableros y la crea
 ## Contenido del repo
 
 * README.md - Este archivo
-* *TEST-PLAN.pdf - Plan de pruebas
+* TEST-PLAN.pdf - Plan de pruebas
 
 docs/
 * Análisis-funcional.pdf - Análisis de requerimientos y mapa mental
@@ -60,11 +60,11 @@ Git + GitHub: Control de versiones
 
 ## Artefactos
 
-- Plan de pruebas (test_plan.pdf)
-- Análisis funcional (docs/Análisis-funcional.pdf)
-- Casos de prueba (docs/casos-de-prueba.csv)
-- Bugs reportados (docs/Bugs-identificados.csv)
-- Evidencia de herramientas (Evidencias/Evidencia-de-herramientas-utilizadas.pdf)
+- [Plan de pruebas](Test_Plan.pdf)
+- [Análisis funcional](docs/Análisis-funcional.pdf)
+- [Casos de prueba](docs/casos-de-prueba.csv)
+- [Bugs reportados](docs/Bugs-identificados.csv)
+- [Evidencia de herramientas](Evidencias/Evidencia-de-herramientas-utilizadas.pdf)
 
 ## Bugs encontrados
 
