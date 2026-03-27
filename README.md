@@ -43,7 +43,7 @@ Análisis funcional → Diseño de casos → Ejecución → Reporte de bugs → 
 ## Resultados
 
 Casos de prueba diseñados: 22
-Casos ejecutados: 2
+Casos ejecutados: 22
 Pasaron: 20
 Fallaron: 2
 Bugs reportados: 2 
