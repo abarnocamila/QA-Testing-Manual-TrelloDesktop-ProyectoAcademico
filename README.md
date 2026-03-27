@@ -61,7 +61,7 @@ Git + GitHub: Control de versiones
 ## Artefactos
 
 - [Plan de pruebas](test_plan.pdf)
-- [Análisis funcional](docs/Análisis-funcional.pdf)
+- [Análisis funcional](docs/Análisis_Funcional.pdf)
 - [Casos de prueba](docs/casos-de-prueba.csv)
 - [Bugs reportados](docs/Bugs-identificados.csv)
 - [Evidencia de herramientas](Evidencias/Evidencia-de-herramientas-utilizadas.pdf)
