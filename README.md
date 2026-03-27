@@ -47,7 +47,6 @@ Casos ejecutados: 22
 Pasaron: 20
 Fallaron: 2
 Bugs reportados: 2 
-Tasa de éxito:  90.9% 
 
 ## Herramientas que usé
 
