@@ -40,8 +40,8 @@ Modal de creación de tablero abierto.","1. Ingresar en “nombre” una cantida
 CP-10,Crear tablero,Cerrar modal de creación sin completar la creación de un tablero,media,Funcional-Negativo,Usuario autenticado y modal de creación abierto,"1. Ingresar en “nombre” un valor válido
 2. Cerrar modal sin guardar cambios",Título del tablero: “Gestión de proyectos 2025”,No se crea ningún tablero y se devuelve a la pantalla anterior.,,Pass
 CP-11,Crear tablero,Error de red al crear tablero,Alta,Caso de error,"Usuario autenticado.
-Modal de creación de tablero abierto.","1. Ingresar datos válidos en los campos
-2. Seleccionar “Crear”",Título del tablero: “Gestión de actividades”,Se muestra un mensaje indicando que no fue posible guardar el tablero. ,El tablero no se crea.,Pass
+Modal de creación de tablero abierto .","1. Deshabilitar la conexión a internet del dispositivo 2.Ingresar datos válidos en los campos
+3. Seleccionar “Crear”",Título del tablero: “Gestión de actividades”,Se muestra un mensaje indicando que no fue posible guardar el tablero. ,El tablero no se crea.,Pass
 CP-12,Crear tablero,Crear tablero a partir de una plantilla predefinida,media,Funcional-Positivo,"Usuario autenticado.
 Modal de creación de tablero abierto.","1. Seleccionar la opción “Empezar con una plantilla”
 2. Seleccionar una plantilla predefinida de la lista disponible
