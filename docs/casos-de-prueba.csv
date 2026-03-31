@@ -65,7 +65,7 @@ CP-17,Agregar tarjeta,Intentar crear una tarjeta vacía,media,Funcional-Negativo
 3. Confirmar la acción de agregar tarjeta.",,El sistema no agrega la tarjeta al tablero.,,Pass
 CP-18,Agregar tarjeta,Verificar visualización de una tarjeta creada,media,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente.," 1. Crear una tarjeta con texto válido.
  2. Observar el tablero.",,La tarjeta aparece visible dentro del tablero después de ser creada.,,Pass
-CP-19,Agregar tarjeta,Verificar persistencia de una tarjeta luego de recargar la página,Alta,Funcional-Positivo,Existe una tarjeta previamente creada dentro del tablero.,"1. Crear una nota con texto válido. 2.Confirmar la creación de la tarjeta.
+CP-19,Agregar tarjeta,Verificar persistencia de una tarjeta luego de recargar el tablero,Alta,Funcional-Positivo,Existe una tarjeta previamente creada dentro del tablero.,"1. Crear una tarjeta con texto válido. 2.Confirmar la creación de la tarjeta.
 3. Cerrar el tablero actual y volverlo a abrir.",,La tarjeta previamente creada permanece visible dentro del tablero.,,Pass
 CP-20,Agregar tarjeta,Verificar que se permita crear una tarjeta con texto largo,media,Funcional-Positivo,El usuario se encuentra dentro de un tablero existente.," 1. Acceder al campo de creación de tarjetas.
 2. Ingresar un texto largo.
